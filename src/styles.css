@@ -1,0 +1,18 @@
+#header
+{
+  background-color: lightblue;
+  height: 100px;
+}
+#pagecontent
+{
+  background-color: #eeeeee;
+  height: 500px;
+  padding: 95px;
+  border: 1px solid white;
+}
+
+body,h1,h2,h3,h4,h5,h6
+{
+  margin: 0px;
+  padding: 0px;
+}

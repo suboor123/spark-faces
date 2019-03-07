@@ -1,0 +1,43 @@
+<!-- <div>
+  <div id="header">
+    <h3>Stackoverflow</h3>
+    <a routerLink="home/index">Home</a>
+    <a routerLink="home/login">Login</a>
+    <a routerLink="home/register">Register</a>
+    <a routerLink="questions/index">Questions</a>
+    <a routerLink="questions/new">New Question</a>
+    <a routerLink="questions/view">View Question</a>
+  </div>
+  <div id="pagecontent">
+    <router-outlet></router-outlet>
+  </div>
+  <div id="footer">footer</div>
+  <input class="md-search" placeholder="Search..." />
+  <img class="img-responsive" src="assets/home.png"height="50"width="">
+</div> -->
+
+<div class="header header-fixed">
+    <div class="navbar container"> 
+        <div class="logo"><a href="#home">  <img class="img-responsive" src="assets/logo.png"height="50"width=""></a></div>
+        <input type="checkbox" id="navbar-toggle" >
+        <label for="navbar-toggle"><i></i></label>
+        <nav class="menu">
+            <ul>
+                <li><a routerLink="home/index">  <input class="md-search" placeholder="Search..." /></a></li>
+                <li><a routerLink="home/index"> <img class="img-responsive" src="assets/home.png"height="50"width=""></a></li>
+                <li><a routerLink="home/login"> <img class="img-responsive" src="assets/mes.png"height="50"width=""></a></li>
+                <li><a routerLink="home/register"> <img class="img-responsive" src="assets/not.png"height="50"width=""></a></li>
+            </ul>
+        </nav>        
+    </div>
+</div>
+
+
+
+
+<div id="pagecontent">
+  <router-outlet>
+
+  </router-outlet>
+</div>
+
